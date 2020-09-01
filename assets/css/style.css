@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #fcfcfc;
+  font-family: "Gayathri" sans-serif;
+  font-weight: 500;
+}
+
+
+/* -------- Background Image -------------*/
+
+.bg-img-home {
+   background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("../images/home-image.jpg");
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+/*------------------- NavBar ---------------------*/
+
+.navbar {
+    margin: 30px;
+    padding: 0;
+    font-size: 30px;
+    
+}
+
+.navbar nav {
+    align-items: flex-end;
+}
+
+/*--------Page Title -----------------*/
+
+.page-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+}
+
+.page-title h1 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  padding: 0 20px;
