@@ -7,7 +7,7 @@ body {
   padding: 0;
   height: 100vh;
   color: #fcfcfc;
-  font-family: "Gayathri" sans-serif;
+  font-family: "Lobster", sans-serif;
   font-weight: 500;
 }
 
@@ -15,8 +15,8 @@ body {
 /* -------- Background Image -------------*/
 
 .bg-img-home {
-   background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("../images/home-image.jpg");
+   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+      url("../images/dogs-field.jpg");
 }
 
 .bg-img {
@@ -37,19 +37,66 @@ body {
     
 }
 
+.navbar-logo{
+    color: #c2c2c2;
+    border: none;
+    outline: none;
+}
+
+.navbar-logo:hover {
+    color: #f2f2f2;
+    
+}
+
 .navbar nav {
     align-items: flex-end;
 }
 
-/*--------Page Title -----------------*/
-
-.page-title {
-    margin-top: auto;
-    margin-bottom: auto;
-    align-self: center;
+.navbar .navbar-brand {
+  color: #f2f2f2;
+  padding: 10px;
 }
 
-.page-title h1 {
-  font-size: 1.9rem;
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+  color: #fcfcfc;
+  padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #c2c2c2;
+  padding: 0 10px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fffcf2;
+}
+
+/*--------Page Title -----------------*/
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: #f8f8f8;
+}
+
+.page-title h1 { 
+  font-size: 100px;
   margin-bottom: 20px;
   padding: 0 20px;
+}
+
+/*---------- Modal ---------------*/
+
