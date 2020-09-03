@@ -12,6 +12,8 @@ body {
 }
 
 
+
+
 /* -------- Background Image -------------*/
 
 .bg-img-home {
@@ -41,10 +43,12 @@ body {
     color: #c2c2c2;
     border: none;
     outline: none;
+    text-decoration: none;
 }
 
 .navbar-logo:hover {
     color: #f2f2f2;
+    text-decoration: none;
     
 }
 
@@ -99,4 +103,30 @@ body {
 }
 
 /*---------- Modal ---------------*/
+
+
+
+/*----------------Social Links---------------*/
+
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+
+.fixed-footer i {
+    color: #c2c2c2;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.fixed-footer i:hover {
+    color: #fcfcfc;
+}
 
