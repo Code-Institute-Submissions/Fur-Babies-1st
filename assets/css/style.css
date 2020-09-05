@@ -8,10 +8,11 @@ body {
   height: 100vh;
   color: #fcfcfc;
   font-family: "Lobster", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 
 /* -------- Background Image -------------*/
@@ -33,7 +34,7 @@ body {
 /*------------------- NavBar ---------------------*/
 
 .navbar {
-    margin: 30px;
+    margin: 15px;
     padding: 0;
     font-size: 30px;
     
@@ -44,6 +45,8 @@ body {
     border: none;
     outline: none;
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-logo:hover {
@@ -54,6 +57,7 @@ body {
 
 .navbar nav {
     align-items: flex-end;
+    margin-right: 10px;
 }
 
 .navbar .navbar-brand {
@@ -68,6 +72,7 @@ body {
   padding: 10px;
 }
 
+
 .navbar-dark .navbar-nav .nav-link {
   color: #c2c2c2;
   padding: 0 10px 10px;
@@ -80,30 +85,65 @@ body {
 
 /*--------Page Title -----------------*/
 
-.title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .page-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  text-align: center;
-  text-shadow: #f8f8f8;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;
 }
 
 .page-title h1 { 
-  font-size: 100px;
-  margin-bottom: 20px;
+  font-size: 70px;
+  margin-bottom: 0;
   padding: 0 20px;
 }
 
 /*---------- Modal ---------------*/
+.modal-content {
+  background-color: #fffded;
+  padding: 20px;
+}
 
+.modal-header {
+  border-bottom: none;
+  padding: 20px;
+}
+
+.modal-title {
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #636363;
+}
+.modal-body {
+  color: #636363;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  padding: 0 20px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+}
+
+.modal-body .about-img {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-footer .btn {
+  background-color: #636363;
+  color: #fffded;
+  padding: 15px 30px;
+  letter-spacing: 5px;
+}
+
+.modal-footer .btn:hover {
+  background-color: #2e2e2e;
+  border: none;
+}
 
 
 /*----------------Social Links---------------*/
@@ -113,7 +153,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding-bottom: 25px;
+    
     text-align: center;
     font-size: 2.2rem;
 
@@ -122,11 +162,27 @@ body {
 .fixed-footer i {
     color: #c2c2c2;
     display: inline-block;
-    margin: 20px;
-
+    padding: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 15px;
 }
 
 .fixed-footer i:hover {
     color: #fcfcfc;
 }
 
+
+
+/*---------------Media Querys---------------*/
+
+@media screen 
+  and (min-device-width: 760px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      .page-title h1 {
+      padding: 0;
+      font-size: 2.5rem;
+  }
+
+}
