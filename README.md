@@ -1,30 +1,36 @@
 # Fur Babies 1st
 
-This website is for a Dog walking business to attract new clients and showcase the company's services. It will aslso be possible for potential clients to be able to contact the owner
+This website is for a Dog walking business to attract new clients and showcase the company's services. It will also be possible for potential clients to be able to contact the owner
 and also be able to see their locale.
  
 ## User Experience UX
 
-###User Requirements
+### User Requirements
 
-*As a User I want to be able to easily understand what the website is for.
-*As a User I want to be able to easily navigate the website.
-*As a User I want to easily find services and prices.
-*As a User i want to be able to find contact details.
-*As a User i want to see location details to see if the service is available.
+- As a User I want to be able to easily understand what the website is for.
+- As a User I want to be able to easily navigate the website.
+- As a User I want to easily find services and prices.
+- As a User i want to be able to find contact details.
+- As a User i want to see location details to see if the service is available.
 
-###Owners Requirements
+### Owners Requirements
 
-*As an Owner I want the home page to immediately tell the User what the site is for.
-*As an Owner I want the User to be able to easily navigate the site via navigation links.
-*As an Owner I want to be able to advertise my services and prices.
-*As an Owner I want potential clients to be able to easily contact me.
+- As an Owner I want the home page to immediately tell the User what the site is for.
+- As an Owner I want the User to be able to easily navigate the site via navigation links.
+- As an Owner I want to be able to advertise my services and prices.
+- As an Owner I want potential clients to be able to easily contact me.
 
-##Design
+## Design
 
+I did the design for this website using Balsamiq to create the wireframes. I have created wireframes for each page on desktop, tablet and mobile
 
+|                                                      Home                                                      	|                                                   About                                                   	|                                                   Services                                                   	|                                                   Gallery                                                   	|                                                   Contact                                                   	|
+|:--------------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|
+| [Desktop](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/FB1%20Home%20desktop.pdf) 	| [Desktop](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/About%20desktop.pdf) 	| [Desktop](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Services%20desktop.pdf) 	| [Desktop](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Gallery%20desktop.pdf) 	| [Desktop](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Contact%20desktop.pdf) 	|
+|  [Tablet](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/FB1%20Home%20tablet.pdf)  	|  [Tablet](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/About%20tablet.pdf)  	|  [Tablet](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Services%20tablet.pdf)  	|  [Tablet](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Gallery%20tablet.pdf)  	|  [Tablet](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Contact%20tablet.pdf)  	|
+|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/FB1%20Home%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/About%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Services%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Gallery%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Contact%20mobile.pdf)  	|
+ 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
