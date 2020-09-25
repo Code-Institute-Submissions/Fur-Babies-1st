@@ -97,7 +97,7 @@ body {
 /*--------Page Title -----------------*/
 
 .page-title {
-  margin-top: auto;
+  margin-top: 300px;
   margin-bottom: auto;
   align-self: center;
 }
@@ -522,9 +522,9 @@ body {
 
 #gallery img {
   height: 75vw;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: 30px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  margin-bottom: 0px;
      
 }
 
@@ -532,34 +532,10 @@ body {
     margin: 0;
 }
 
-
-@media (min-width: 576px) {
-  #gallery img {
-    height: 35vw;
-  }
-  
-}
-@media (min-width: 992px) {
-  #gallery img {
-    height: 18vw;
-  }
-}
-
 .carousel-item img {
   height: 60vw;
   -o-object-fit: cover;
      object-fit: cover;
-}
-@media (min-width: 576px) {
-  .carousel-item img {
-    height: 350px;
-    width: 100%;
-  }
-}
-
-* {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 #gallery.custom {
@@ -590,11 +566,7 @@ body {
   top: 3px;
   border: solid 2px white;
 }
-@media (min-width: 992px) {
-  #galleryModal.custom .modal-header button {
-    top: 15px;
-  }
-}
+
 #galleryModal.custom .modal-header button:hover {
   top: 3px;
 }
@@ -615,44 +587,22 @@ body {
   background: white;
   border-radius: 3px 10px;
 }
-@media (min-width: 768px) {
-  #galleryModal.custom .modal-body::before, #galleryModal.custom .modal-body::after {
-    border-radius: 3px 30px;
-    height: 100px;
-    width: 100px;
-  }
-}
+
 #galleryModal.custom .modal-body::before {
   top: -5px;
   left: -5px;
 }
-@media (min-width: 768px) {
-  #galleryModal.custom .modal-body::before {
-    top: -15px;
-    left: 0px;
-  }
-}
+
 #galleryModal.custom .modal-body::after {
   bottom: -5px;
   right: -5px;
   z-index: -1;
 }
-@media (min-width: 768px) {
-  #galleryModal.custom .modal-body::after {
-    bottom: -15px;
-    right: 0px;
-  }
-}
+
 #galleryModal.custom .modal-footer {
   border: none;
   margin-top: 60px;
 }
-@media (min-width: 992px) {
-  #galleryModal.custom .modal-footer {
-    margin-top: 40px;
-  }
-}
-
 
 #galleryModal.custom .carousel-control-prev, #galleryModal.custom .carousel-control-next {
   font-size: 2em;
@@ -660,46 +610,23 @@ body {
   opacity: 1;
   bottom: -52px;
 }
-@media (min-width: 768px) {
-  #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
-    top: 0;
-    opacity: 0.5;
-    bottom: 0;
-  }
-}
+
 #galleryModal.custom .carousel-control-next-icon, #galleryModal.custom .carousel-control-prev-icon {
   height: 30px;
   width: 30px;
 }
-@media (min-width: 768px) {
-  #galleryModal.custom .carousel-control-prev {
-    left: -90px;
-  }
-}
-@media (min-width: 768px) {
-  #galleryModal.custom .carousel-control-next {
-    right: -90px;
-  }
-}
+
 #galleryModal.custom .carousel-indicators {
   bottom: -60px;
 }
-@media (min-width: 992px) {
-  #galleryModal.custom .carousel-indicators {
-    bottom: -30px;
-  }
-}
+
 #galleryModal.custom .carousel-indicators li {
   height: 30px;
   border-radius: 100px;
   background: none;
   border: solid 2px white;
 }
-@media (min-width: 992px) {
-  #galleryModal.custom .carousel-indicators li {
-    height: 10px;
-  }
-}
+
 #galleryModal.custom .carousel-indicators li:hover {
   background: white;
 }
@@ -708,77 +635,55 @@ body {
 }
 
 
-
-
-
-
-
 /*----------------Social Links---------------*/
 
-.fixed-footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    
     text-align: center;
     font-size: 2.2rem;
 
 }
 
-.fixed-footer i {
+.footer i {
     color: #c2c2c2;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 30px;
     letter-spacing: 15px;
-}
-
-.fixed-footer i:hover {
-    color: #fcfcfc;
-}
-
-.gallery-footer {
-    
-    left: 0;
-    bottom: 0;
-    
-    
     text-align: center;
-    font-size: 2.2rem;
 }
 
-.gallery-footer i {
-    color: #c2c2c2;
-    display: inline-block;
-    padding: 10px;
-    margin-bottom: 10px;
-    letter-spacing: 15px;
-}
-
-.gallery-footer i:hover {
+.footer i:hover {
     color: #fcfcfc;
 }
-
-
 
 /*---------------Media Querys---------------*/
 
-@media screen 
-  and (min-device-width: 760px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-      .page-title h1 {
-      padding: 0;
-      font-size: 2.5rem;
-  }
+@media screen  
+            and (max-device-width: 1020px) 
+            and (-webkit-min-device-pixel-ratio: 2) {
+               .page-title {
+                   margin-top: 100px;
+                }
+               .page-title h1 {
+                  padding: 0;
+                  font-size: 2.5rem;
+                }
+                .footer {
+                  position: relative;
+                }
       
 }
 
-
-@media (max-width: 320px) { 
+@media (min-width: 992px) {
+    .footer {
+      position: fixed;
+    }
 }
+
 
 @media (max-width: 767px) {
     #generic_price_table .generic_content{
@@ -800,10 +705,6 @@ body {
         margin-bottom:75px;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-@media (min-width: 1200px) {
-}
 
 @media all and (max-width: 767px) {
   .carousel-container #carousel-thumbs img {
@@ -811,12 +712,63 @@ body {
   }
 }
 @media all and (min-width: 576px) {
+    #gallery img {
+    height: 35vw;
+  }
+  .carousel-item img {
+    height: 350px;
+    width: 100%;
+  }
   .carousel-container #carousel-thumbs {
     position: absolute;
+    background: #ccccce;
   }
 }
-@media all and (max-width: 576px) {
-  .carousel-container #carousel-thumbs {
-    background: #ccccce;
+
+@media (min-width: 992px) {
+  #gallery img {
+    height: 18vw;
+  }
+   #galleryModal.custom .carousel-indicators li {
+    height: 10px;
+  }
+  #galleryModal.custom .carousel-indicators {
+    bottom: -30px;
+  }
+  #galleryModal.custom .modal-footer {
+    margin-top: 40px;
+  }
+  #galleryModal.custom .modal-header button {
+    top: 15px;
+  }
+}
+
+* {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  #galleryModal.custom .modal-body::before, #galleryModal.custom .modal-body::after {
+    border-radius: 3px 30px;
+    height: 100px;
+    width: 100px;
+    top: -15px;
+    left: 0px;
+  }
+  #galleryModal.custom .modal-body::after {
+    bottom: -15px;
+    right: 0px;
+  }
+  #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
+    top: 0;
+    opacity: 0.5;
+    bottom: 0;
+  }
+  #galleryModal.custom .carousel-control-prev {
+    left: -90px;
+  }
+  #galleryModal.custom .carousel-control-next {
+    right: -90px;
   }
 }
