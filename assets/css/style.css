@@ -219,6 +219,29 @@ body {
     font-family:"Roboto", sans-serif;
 }
 
+#reviews {
+    background: rgba(61, 61, 61, 0.36);
+}
+
+#first-review {
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#second-review {
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#third-review {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
 /*----------------Bootstrap Gallery Carousel------------*/
 
 
@@ -339,7 +362,7 @@ body {
 
 /*----------------Social Links---------------*/
 
-.footer {
+.footer-fixed {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -347,6 +370,28 @@ body {
     text-align: center;
     font-size: 2.2rem;
 
+}
+
+.footer-fixed i {
+    color: #c2c2c2;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.footer-fixed i:hover {
+    color: #fcfcfc;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
 }
 
 .footer i {
@@ -374,7 +419,7 @@ body {
                   padding: 0;
                   font-size: 2.5rem;
                 }
-                .footer {
+                .footer-fixed {
                   position: relative;
                 }
       
