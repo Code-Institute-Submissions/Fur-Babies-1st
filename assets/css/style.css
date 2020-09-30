@@ -184,11 +184,39 @@ body {
 
 /*--------------- Services -----------------*/
 
-#pricing {
-    background: rgba(114, 114, 114, 0.6)
-}
-#price-list {
-   font-family: "Roboto", sans-serif;
+.card-pricing .list-unstyled li {
+     padding: .5rem 0;
+     color: #fffded;
+     font-weight: 300;
+     font-family: "Roboto", sans-serif;
+     
+ }
+
+ .card-pricing:hover {
+      border-radius: 2px;
+      border-color: #fffded;
+      background: rgba(81, 81, 81, 0.57);
+ }
+
+ .card {
+     background: rgba(61, 61, 61, 0.36);
+ }
+
+ .btn {
+     border-radius: 1px;
+     font-weight: 300;
+     background: #fffded;
+     
+ }
+
+ .btn:hover {
+     color: #fffded;
+     background-color:  #636363;
+     border: 2px solid #fffded;
+ }
+
+.card-body-terms {
+    font-family:"Roboto", sans-serif;
 }
 
 /*----------------Bootstrap Gallery Carousel------------*/
