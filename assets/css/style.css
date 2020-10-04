@@ -37,6 +37,11 @@ body {
       url("../images/landscape.jpg");
 }
 
+.bg-img-contact {
+   background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+      url("../images/dogs-field.jpg");
+}
+
 .bg-img {
   
   background-repeat: no-repeat;
@@ -136,6 +141,15 @@ body {
     font-size: 50px;
     margin-bottom: 0;
     padding: 0;
+}
+
+.contact-page-title{
+    margin: auto;
+    margin-bottom: auto;
+    align-self: center;
+}
+.contact-page-title h1 {
+    font-size: 50px;
 }
 
 /*---------- About Modal ---------------*/
@@ -362,6 +376,51 @@ body {
   background: white;
 }
 
+/*-------------Contact page --------------------*/
+
+.contact-description p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contact-info a {
+    color: #fffded;
+}
+
+.contact-info span {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.contact-form {
+    background-color: rgba(81, 81, 81, 0.57);
+    border-color: #fffded;
+    color: #fffded;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: left;
+    text-transform: none;
+}
+
+.contact-form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.contact-form .btn {
+    font-family: "Lobster", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+
+}
+
+::placeholder {
+    color: #636363
+}
 
 /*----------------Social Links---------------*/
 
@@ -426,7 +485,6 @@ body {
                   position: relative;
                 }
                 .bg-img {
-                   position: fixed;
                    left: 0;
                    top: 0;
                    width: 100%;
