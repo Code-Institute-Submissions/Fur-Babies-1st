@@ -471,7 +471,7 @@ body {
 /*---------------Media Querys---------------*/
 
 @media screen  
-            and (max-device-width: 1020px) 
+            and (max-width: 1020px)
             and (-webkit-min-device-pixel-ratio: 2)
             and (orientation: landscape) {
                .page-title {
