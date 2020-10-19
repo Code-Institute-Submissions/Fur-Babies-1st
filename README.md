@@ -42,9 +42,9 @@ complement each other. I have used "Lobster" for the menu and main headings then
 to read text sections.
 
 
-### Features
+## Features
 
-## Features Currently Implemented
+### Features Currently Implemented
 
 - The website is responsive.
 - Design is soft and easy on the eye.
