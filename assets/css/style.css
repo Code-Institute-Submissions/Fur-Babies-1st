@@ -488,7 +488,7 @@ body {
 }
 
 @media (min-width: 992px) and (max-width:1020px) {
-    .footer {
+    .footer-fixed {
       position: fixed;
     }
 }

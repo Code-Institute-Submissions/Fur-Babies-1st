@@ -22,7 +22,7 @@ and also be able to see their locale.
 
 ## Design
 
-I did the design for this website using Balsamiq to create the wireframes. I have created wireframes for each page on desktop, tablet and mobile
+I did the design for this website using Balsamiq to create the wireframes. I have created wireframes for desktop, tablet and mobile
 
 |                                                      Home                                                      	|                                                   About                                                   	|                                                   Services                                                   	|                                                   Gallery                                                   	|                                                   Contact                                                   	|
 |:--------------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|
@@ -31,8 +31,30 @@ I did the design for this website using Balsamiq to create the wireframes. I hav
 |  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/FB1%20Home%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/About%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Services%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Gallery%20mobile.pdf)  	|  [Mobile](https://github.com/horizons83/Fur-Babies-1st/blob/master/assets/Wireframes/Contact%20mobile.pdf)  	|
  
 
+I wanted to keep the design simple and easy to navigate so potential clients can find the information they want easily.
+I wanted to create an about modal that was accessible from every page so clients could get some background infomation 
+without coming away from other info that may be after. The about model would also help by lowering the amount of pages on the site.
 
-## Features
+### Fonts
+
+I have used fonts from [google fonts](https://fonts.google.com/) I selected Lobster and Roboto as they were a suggested pair and so
+complement each other. I have used "Lobster" for the menu and main headings then "Roboto" for paragraphs making it easier on the eye
+to read text sections.
+
+
+### Features
+
+## Features Currently Implemented
+
+- The website is responsive.
+- Design is soft and easy on the eye.
+- The About modal is accessiblefrom all pages.
+- Easy to follow navbar.
+- Gallery page has images that open into a modal slideshow.
+- Contact page has contact and location information including a locations covered map, Also there is a contact
+  form that the user can fill out to arrange booking or ask a question.
+- Social links are included on every page.
+
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
@@ -93,7 +115,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from https://unsplash.com/
 
 ### Acknowledgements
 
