@@ -1,3 +1,5 @@
+![responsive image](assets/images/responsive.png)
+
 # Fur Babies 1st
 
 This website is for a Dog walking business to attract new clients and showcase the company's services. It will also be possible for potential clients to be able to contact the owner
@@ -41,6 +43,10 @@ I have used fonts from [google fonts](https://fonts.google.com/) I selected Lobs
 complement each other. I have used "Lobster" for the menu and main headings then "Roboto" for paragraphs making it easier on the eye
 to read text sections.
 
+### Colour Scheme
+I wanted to keep the colour scheme soft to the eye so used a mixture of off white and soft grey colours.
+I have created a palette using [Coolors](https://coolors.co/) and it is displayed below.
+![colour palette](assets/images/palette.png)
 
 ## Features
 
