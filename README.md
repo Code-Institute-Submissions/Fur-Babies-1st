@@ -1,5 +1,5 @@
 ![responsive image](assets/images/responsive.png)
-
+This is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
 # Fur Babies 1st
 
 This website is for a Dog walking business to attract new clients and showcase the company's services. It will also be possible for potential clients to be able to contact the owner
