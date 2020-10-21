@@ -470,36 +470,36 @@ body {
 
 /*---------------Media Querys---------------*/
 
-@media screen and (min-width: 300px) 
-              and (max-width: 1020px)
-              and (-webkit-min-device-pixel-ratio: 2)
-              and (orientation: landscape) {
-               .page-title {
-                   margin-top: 100px;
-                }
-               .page-title h1 {
-                  padding: 0;
-                  font-size: 50px;
-                }
-               .footer-fixed {
-                  position: relative;
-                }
+@media only screen and (min-width: 300px) 
+                   and (max-width: 1020px)
+                   and (-webkit-min-device-pixel-ratio: 2)
+                   and (orientation: landscape) {
+                       .page-title {
+                           margin-top: 100px;
+                       }
+                       .page-title h1 {
+                          padding: 0;
+                          font-size: 50px;
+                       }
+                       .footer-fixed {
+                          position: relative;
+                      }
       
 }
 
-@media (min-width: 992px) and (max-width:1020px) {
+@media only screen and (min-width: 992px) and (max-width:1020px) {
     .footer-fixed {
       position: fixed;
     }
 }
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     #generic_price_table .generic_content{
         margin-bottom:75px;
     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and(min-width: 768px) and (max-width: 991px) {
     #generic_price_table .col-md-3{
         float:left;
         width:50%;
@@ -534,7 +534,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   #gallery img {
     height: 18vw;
   }
@@ -557,7 +557,7 @@ body {
   transition: 0.3s;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   #galleryModal.custom .modal-body::before, #galleryModal.custom .modal-body::after {
     border-radius: 3px 30px;
     height: 100px;
