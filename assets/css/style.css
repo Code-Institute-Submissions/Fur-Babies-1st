@@ -468,22 +468,29 @@ body {
     color: #fcfcfc;
 }
 
+
 /*---------------Media Querys---------------*/
 
-@media only screen and (min-width: 300px) 
-                   and (max-width: 1020px)
-                   and (-webkit-min-device-pixel-ratio: 2)
-                   and (orientation: landscape) {
-                       .page-title {
-                           margin-top: 100px;
+@media screen  and (max-width: 1020px) {
+                    
+                    .page-title {
+                        margin-top: auto;
                        }
-                       .page-title h1 {
-                          padding: 0;
-                          font-size: 50px;
+                    .page-title h1 {
+                        padding: 0;
+                        font-size: 2.5rem;
                        }
-                       .footer-fixed {
-                          position: relative;
+                    .footer-fixed {
+                         position: relative;
                       }
+                    .contact-form {
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                    }
+                    
+                    #navbarToggler {
+                        text-align: left;
+                    }
       
 }
 
