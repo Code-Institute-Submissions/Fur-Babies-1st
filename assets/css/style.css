@@ -24,7 +24,7 @@ body {
 
 
 /* -------- Background Image -------------*/
-
+/*
 .bg-img-home {
    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
       url("../images/dogs-field.jpg");
@@ -43,19 +43,17 @@ body {
 .bg-img-contact {
    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
       url("../images/dogs-field.jpg");
-}
+}*/
 
 .bg-img {
-  background-repeat: no-repeat;
-  background-position: center center;
-   background-size: cover;
+  background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/dogs-field.jpg") no-repeat center center fixed;  
+  background-size: cover;
   background-attachment: fixed;
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  
-	position: relative;
   height: 100vh;
   width: 100%;
   z-index: -1;  
