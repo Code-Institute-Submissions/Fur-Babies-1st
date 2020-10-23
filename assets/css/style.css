@@ -1,11 +1,11 @@
 html {
-  height: 100%;
+ height: 100%; 
 }
 
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  
   color: #fcfcfc;
   font-family: "Lobster", sans-serif;
   font-weight: 300;
@@ -15,6 +15,15 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
+   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/dogs-field.jpg") no-repeat center center fixed;  
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -1; 
 }
 
 ::-webkit-scrollbar {
@@ -43,21 +52,19 @@ body {
 .bg-img-contact {
    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
       url("../images/dogs-field.jpg");
-}*/
+}
 
 .bg-img {
   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url("../images/dogs-field.jpg") no-repeat center center fixed;  
   background-size: cover;
-  background-attachment: fixed;
-  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100vh;
   width: 100%;
   z-index: -1;  
-}
+}*/
 
 
 /*------------------- NavBar ---------------------*/
