@@ -16,7 +16,8 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/dogs-field.jpg") no-repeat center center fixed;  
+    url("../images/dogs-field.jpg") no-repeat center center fixed;
+    position: relative;  
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
