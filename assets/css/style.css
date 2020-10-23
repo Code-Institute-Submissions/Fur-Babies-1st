@@ -512,6 +512,9 @@ body {
     #generic_price_table .generic_content{
         margin-bottom:75px;
     }
+    .footer-fixed {
+        position: relative;
+    }
 }
 @media only screen and(min-width: 768px) and (max-width: 991px) {
     #generic_price_table .col-md-3{
