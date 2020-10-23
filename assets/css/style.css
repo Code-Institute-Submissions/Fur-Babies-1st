@@ -47,7 +47,7 @@ body {
 
 .bg-img {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
    background-size: cover;
   background-attachment: fixed;
   
@@ -481,14 +481,14 @@ body {
                     
                     .page-title {
                         margin-top: auto;
-                       }
+                    }
                     .page-title h1 {
                         padding: 0;
                         font-size: 2.5rem;
-                       }
+                    }
                     .footer-fixed {
                          position: relative;
-                      }
+                    }
                     .contact-form {
                         margin-top: 10px;
                         margin-bottom: 15px;
