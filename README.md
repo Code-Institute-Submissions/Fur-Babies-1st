@@ -76,26 +76,26 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 
 ### Frameworks, Libraries and Programs
 
-- Balsamic(https://balsamiq.com/)
- - Balsamic was used to create the wireframes for the project during the design stage.
+* Balsamic(https://balsamiq.com/)
+ * Balsamic was used to create the wireframes for the project during the design stage.
  
-- Bootstrap V4.5(https://getbootstrap.com/)
- - I used bootstrap to give the site a responsive layout and the ability to add a Nav and a Modal to the about and gallery pages.
+* Bootstrap V4.5(https://getbootstrap.com/)
+ * I used bootstrap to give the site a responsive layout and the ability to add a Nav and a Modal to the about and gallery pages.
 
-- Fontawsome V5(https://fontawesome.com/)
- - I used fontawsome to provide icons for Nav logo, Modal buttons and social media icons.
+* Fontawsome V5(https://fontawesome.com/)
+ * I used fontawsome to provide icons for Nav logo, Modal buttons and social media icons.
 
-- Google Fonts(https://fonts.google.com/)
- - Google fonts was used to provide Lobster and Roboto fonts for the site.
+* Google Fonts(https://fonts.google.com/)
+ * Google fonts was used to provide Lobster and Roboto fonts for the site.
  
-- GitPod(https://www.gitpod.io/)
- - GitPod is the online IDE used to code the project.
+* GitPod(https://www.gitpod.io/)
+ * GitPod is the online IDE used to code the project.
  
-- Git(https://git-scm.com/)
- - Git was used for version control to commit and push from GitPod to GitHub.
+* Git(https://git-scm.com/)
+ * Git was used for version control to commit and push from GitPod to GitHub.
  
- - GitHub(https://github.com/)
-  GitHub is the repository used to store the project.
+* GitHub(https://github.com/)
+ * GitHub is the repository used to store the project.
 
  
   
