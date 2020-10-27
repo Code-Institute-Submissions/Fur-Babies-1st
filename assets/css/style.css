@@ -14,17 +14,7 @@ body {
   flex-direction: column;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/dogs-field.jpg") no-repeat center center fixed;
-    position: relative;  
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  height: 100vh;
-  width: 100%;
-  z-index: -1; 
+  -ms-flex-direction: column; 
 }
 
 ::-webkit-scrollbar {
@@ -34,30 +24,29 @@ body {
 
 
 /* -------- Background Image -------------*/
-/*
+
 .bg-img-home {
    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-      url("../images/dogs-field.jpg");
+      url("../images/dogs-field.jpg") no-repeat center center fixed;
 }
 
 .bg-img-services {
-   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-      url("../images/services-image.jpg");
+   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../images/services-image.jpg") no-repeat center center fixed;
 }
 
 .bg-img-gallery {
     background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-      url("../images/landscape.jpg");
+      url("../images/landscape.jpg") no-repeat center center fixed;
 }
 
 .bg-img-contact {
    background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-      url("../images/dogs-field.jpg");
+      url("../images/dogs-field.jpg") no-repeat center center fixed;
 }
 
 .bg-img {
-  background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/dogs-field.jpg") no-repeat center center fixed;  
+  position: relative;  
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -65,7 +54,7 @@ body {
   height: 100vh;
   width: 100%;
   z-index: -1;  
-}*/
+}
 
 
 /*------------------- NavBar ---------------------*/
@@ -507,6 +496,16 @@ body {
                         background: rgba(81, 81, 81, 0.57);
                     }
       
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    #first-review {
+        float: none;
+    }
+    #second-review {
+        float: none;
+     
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1020px) {

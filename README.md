@@ -62,26 +62,43 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 - Social links are included on every page.
 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- Live calender and abilty to book sessions through site.
+- Ability to pay through website via card/Paypal.
+- Possible login page and ability to track walks live.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Languages
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- HTML5(https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- CSS3(https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+### Frameworks, Libraries and Programs
+
+- Balsamic(https://balsamiq.com/)
+ - Balsamic was used to create the wireframes for the project during the design stage.
+ 
+- Bootstrap V4.5(https://getbootstrap.com/)
+ - I used bootstrap to give the site a responsive layout and the ability to add a Nav and a Modal to the about and gallery pages.
+
+- Fontawsome V5(https://fontawesome.com/)
+ - I used fontawsome to provide icons for Nav logo, Modal buttons and social media icons.
+
+- Google Fonts(https://fonts.google.com/)
+ - Google fonts was used to provide Lobster and Roboto fonts for the site.
+ 
+- GitPod(https://www.gitpod.io/)
+ - GitPod is the online IDE used to code the project.
+ 
+- Git(https://git-scm.com/)
+ - Git was used for version control to commit and push from GitPod to GitHub.
+ 
+ - GitHub(https://github.com/)
+  GitHub is the repository used to store the project.
+
+ 
+  
 
 ## Testing
 
