@@ -17,11 +17,6 @@ body {
   -ms-flex-direction: column; 
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
-
 
 /* -------- Background Image -------------*/
 
