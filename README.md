@@ -102,24 +102,26 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I used the WC3 HTML validator and the WC3 CSS validator to test every page of the website to check that there were no errors present.
+below are the results of the checks.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+* [WC3 HTML Validator](https://validator.w3.org/)
+   * [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhorizons83.github.io%2FFur-Babies-1st%2Findex.html) No errors or warnings to show.
+   * [services.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhorizons83.github.io%2FFur-Babies-1st%2Fservices.html) No errors but does show warning for using h1 more than once during pricing cards.
+   * [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhorizons83.github.io%2FFur-Babies-1st%2Fgallery.html) No errors or warnings to show.
+   * [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhorizons83.github.io%2FFur-Babies-1st%2Fcontact.html) No errors or warnings to show.
+   
+* [WC3 CSS Validator](https://jigsaw.w3.org/css-validator/)
+   * Shows no errors found but does show warnings for -
+       * -webkit-box-orient
+	   * -webkit-box-direction
+	   * -ms-flex-direction
+	   * ::-webkit-scrollbar
+	   * -webkit-background-size
+	   * -moz-background-size
+	   * -o-background-size
+	   * -o-object-fit
+	   * -webkit-transition
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).

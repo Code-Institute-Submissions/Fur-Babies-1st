@@ -523,13 +523,14 @@ body {
         position: relative;
     }
 }
-@media only screen and(min-width: 768px) and (max-width: 991px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     #generic_price_table .col-md-3{
         float:left;
         width:50%;
     }
     
-    #generic_price_table .col-md-4{
+    #generic_price_table {
         float:left;
         width:50%;
     }
