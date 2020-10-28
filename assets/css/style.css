@@ -3,14 +3,14 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-top: 70px;
   padding: 0;
   
   color: #fcfcfc;
   font-family: "Lobster", sans-serif;
   font-weight: 300;
   text-align: center;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   -webkit-box-orient: vertical;
@@ -47,7 +47,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   z-index: -1;  
 }
@@ -56,10 +56,10 @@ body {
 /*------------------- NavBar ---------------------*/
 
 .navbar {
-    margin: 15px;
+    background: #636363;
+    margin-bottom: 15px;
     padding: 0;
     font-size: 30px;
-    
 }
 
 .navbar-logo{
@@ -88,7 +88,7 @@ body {
 }
 
 .navbar .navbar-toggler {
-  border: 1px solid;
+    border: none;
   outline: none;
   color: #fcfcfc;
   padding: 10px;
@@ -490,7 +490,7 @@ body {
                     
                     #navbarToggler {
                         text-align: left;
-                        background: rgba(81, 81, 81, 0.57);
+                        background: #636363;
                     }
       
 }
