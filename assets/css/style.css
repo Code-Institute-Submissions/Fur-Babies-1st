@@ -22,7 +22,7 @@ body {
 /* -------- Background Image -------------*/
 
 .bg-img-home {
-   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+   background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../images/dogs-field.jpg") no-repeat center center fixed;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .bg-img-gallery {
-    background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("../images/landscape.jpg") no-repeat center center fixed;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .bg-img {
-  position: relative;  
+    
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -445,6 +445,28 @@ body {
 .footer-fixed i:hover {
     color: #fcfcfc;
 }*/
+.landing-footer {
+    margin-top: auto;
+    margin-bottom: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.landing-footer i {
+    color: #c2c2c2;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.landing-footer i:hover {
+    color: #fcfcfc;
+}
 
 .footer {
     margin-top: auto;
@@ -491,6 +513,9 @@ body {
                     #navbarToggler {
                         text-align: left;
                         background: #636363;
+                    }
+                    .navbar-expand-lg{
+                        font-size: 20px;
                     }
       
 }
