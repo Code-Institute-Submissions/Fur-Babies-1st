@@ -9,18 +9,18 @@ and also be able to see their locale.
 
 ### User Requirements
 
-- As a User I want to be able to easily understand what the website is for.
-- As a User I want to be able to easily navigate the website.
-- As a User I want to easily find services and prices.
-- As a User i want to be able to find contact details.
-- As a User i want to see location details to see if the service is available.
+- As a **User** I want to be able to easily understand what the website is for.
+- As a **User** I want to be able to easily navigate the website.
+- As a **User** I want to easily find services and prices.
+- As a **User** i want to be able to find contact details.
+- As a **User** i want to see location details to see if the service is available.
 
 ### Owners Requirements
 
-- As an Owner I want the home page to immediately tell the User what the site is for.
-- As an Owner I want the User to be able to easily navigate the site via navigation links.
-- As an Owner I want to be able to advertise my services and prices.
-- As an Owner I want potential clients to be able to easily contact me.
+- As an **Owner** I want the home page to immediately tell the User what the site is for.
+- As an **Owner** I want the User to be able to easily navigate the site via navigation links.
+- As an **Owner** I want to be able to advertise my services and prices.
+- As an **Owner** I want potential clients to be able to easily contact me.
 
 ## Design
 
@@ -122,6 +122,32 @@ below are the results of the checks.
 	   * -o-background-size
 	   * -o-object-fit
 	   * -webkit-transition
+
+
+### Testing User Stories
+
+As a **user** I want to be able to easily understand what the website is for:
+- I have added a full size background image with a title and slogan ( Fur Babies 1st "Taking Care of Your Best Friend ) center page which is large and easy to read.
+
+As a **user** I want to be able to easily navigate the website: 
+- I have placed a Navbar at the top of every page with links to all pages. The Navbar is fixed and therefore always available at the top of the page even when scrolling. I have also included an icon of a pawprint with text "FB1" to the left of the Navbar which if clicked takes you back to the landing page.
+	   
+As a **user** I want to be able to easily find services and prices:
+- I have included a Services page which lists available services and current prices. The price cards also include a "Book" button which if clicked takes the user to the contact page.
+	 
+	 
+As a **user**  I want to be able to find contact details:
+- I have included a contact page with email address and also a contact form that can be filled out. There is also social media links in the footer on every page to aid contact.
+	 
+As a **user** i want to see location details to see if the service is available: 
+- On the Contact page I have included a location, postcodes covered and also map highlighting the areas covered.
+
+
+### Further Testing
+
+as well as validating the code I have also tested the responsivness across different browsers and devices
+
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
