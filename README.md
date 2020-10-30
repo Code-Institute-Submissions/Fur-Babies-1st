@@ -145,7 +145,26 @@ As a **user** i want to see location details to see if the service is available:
 
 ### Further Testing
 
-as well as validating the code I have also tested the responsivness across different browsers and devices
+as well as validating the code I have also tested the responsivness across different browsers and devices. I also used devtools to test the responsiveness during development
+to ensure the design would react correctly.
+
+I have also used Lighthouse within the devtools to check the performance of the website and have included screenshots.
+
+- index.html
+
+![index.html](assets/images/testing-images/performance-index.png)
+
+- services.html
+
+![services.html](assets/images/testing-images/performance-services.png)
+
+- gallery.html
+
+![gallery.html](assets/images/testing-images/performance-gallery.png)
+
+- contact.html
+
+![contact.html](assets/images/testing-images/performance-contact.png)
 
 
 ## Deployment
