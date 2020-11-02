@@ -4,6 +4,31 @@ This is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/)
 
 This website is for a Dog walking business to attract new clients and showcase the company's services. It will also be possible for potential clients to be able to contact the owner
 and also be able to see their locale.
+
+## Table of Contents
+1. [User Experience](#User-Experience-UX)
+2. [Design](#Design)
+    - [Wireframes](#wireframes)
+	- [Fonts](#Fonts)
+	- [Colour Scheme](#Colour-Scheme)
+
+3. [Features](#Features)
+    - [Features Currently Implemented](#Features-Currently-Implemented)
+	- [Features Left to Implement](#Features-Left-to-Implement)
+	
+4. [Technologies Used](#Technologies-Used)
+    - [Languages](#Languages)
+	- [Frameworks, Libraries and Programs](#Frameworks,-Libraries-and-Programs)
+	
+5. [Testing](#Testing)
+    - [Testing User Stories](#Testing-User-Stories)
+	- [Further Testing](#Further-Testing)
+	
+6. [Deployment](#Deployment)
+7. [Credits](#Credits)
+8. [Content](#Content)
+9. [Media](#Media)
+10. [Acknowledgements](#Acknowledgements)
  
 ## User Experience UX
 
@@ -25,6 +50,8 @@ and also be able to see their locale.
 ## Design
 
 I did the design for this website using Balsamiq to create the wireframes. I have created wireframes for desktop, tablet and mobile
+
+### Wireframes
 
 |                                                      Home                                                      	|                                                   About                                                   	|                                                   Services                                                   	|                                                   Gallery                                                   	|                                                   Contact                                                   	|
 |:--------------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------:	|
@@ -169,24 +196,25 @@ I have also used Lighthouse within the devtools to check the performance of the 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
 
+- About Modal was taken from Bootstrap documentation for [Bootstrap 4](https://getbootstrap.com/docs/4.5/components/modal/)
+- The pricing cards on the Services page were taken from [bbbootstrap](https://bbbootstrap.com/snippets/responsive-pricing-table-79450012) and adapted to suit.
+- The code for the gallery with modal was taken from [css-tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
+- Location and area covered map on the contact page was created using [My Maps](https://www.google.co.uk/maps/about/mymaps/) from Google.
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the customer reviews was taken from [Waggys Walks](https://www.waggyswalks.co.uk/)
 
 ### Media
-- The photos used in this site were obtained from https://unsplash.com/
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/)
+- Photos were resized using [PicResize](https://picresize.com/)
+- All photos were compressed using [Tinyjpg](https://tinyjpg.com/) to help site loading times.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my wife and her plans to start a dog walking service.
+- I'd like to say a big thank you to my mentor Gerry Mcbride for his advice.
