@@ -25,10 +25,15 @@ and also be able to see their locale.
 	- [Further Testing](#Further-Testing)
 	
 6. [Deployment](#Deployment)
+    - [GitHub Pages](#GitHub-Pages)
+	- [Making a Local Clone](#Making-a-Local-Clone)
+	
 7. [Credits](#Credits)
 8. [Content](#Content)
 9. [Media](#Media)
 10. [Acknowledgements](#Acknowledgements)
+
+---
  
 ## User Experience UX
 
@@ -46,6 +51,10 @@ and also be able to see their locale.
 - As an **Owner** I want the User to be able to easily navigate the site via navigation links.
 - As an **Owner** I want to be able to advertise my services and prices.
 - As an **Owner** I want potential clients to be able to easily contact me.
+
+[Contents](#Table-of-Contents)
+
+---
 
 ## Design
 
@@ -75,6 +84,11 @@ I wanted to keep the colour scheme soft to the eye so used a mixture of off whit
 I have created a palette using [Coolors](https://coolors.co/) and it is displayed below.
 ![colour palette](assets/images/palette.png)
 
+
+[Contents](#Table-of-Contents)
+
+---
+
 ## Features
 
 ### Features Currently Implemented
@@ -93,6 +107,11 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 - Live calender and abilty to book sessions through site.
 - Ability to pay through website via card/Paypal.
 - Possible login page and ability to track walks live.
+
+
+[Contents](#Table-of-Contents)
+
+---
 
 ## Technologies Used
 
@@ -124,8 +143,10 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 * [GitHub](https://github.com/)
    * GitHub is the repository used to store the project.
 
- 
-  
+
+[Contents](#Table-of-Contents) 
+
+---
 
 ## Testing
 
@@ -194,10 +215,43 @@ I have also used Lighthouse within the devtools to check the performance of the 
 ![contact.html](assets/images/testing-images/performance-contact.png)
 
 
+[Contents](#Table-of-Contents)
+
+---
+
 ## Deployment
 
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+   
+   1. After pushing the project to GitHub from GitPod I logged into the GitHub site.
+   2. I then located the [repository](https://github.com/horizons83/Fur-Babies-1st) for the project.
+   3. I then clicked the settings cog located at the top of the repository.
+   4. On the settings page I scrolled down to the GitHub Pages section.
+   5. Under "Source" I selected "master branch" from the menu.
+   6. After a few minutes I received the message " Your site is published at https://horizons83.github.io/Fur-Babies-1st/ "
+   
+The website can be viewed here: https://horizons83.github.io/Fur-Babies-1st/
+   
+### Making a Local Clone
+
+To make a local clone of the repository on your computer:
+   
+   1. Open GitHub and locate the repository https://github.com/horizons83/Fur-Babies-1st
+   2. Above the file list click "Code" and copy the link using HTTPS.
+   3. After copying the link open Terminal on your computer or using Terminal on an IDE.
+   4. Change the current working directory to the location where you want the clone to be saved.
+   5. Type git clone, then paste the URL: https://github.com/horizons83/Fur-Babies-1st.git
+      
+      `git clone https://github.com/horizons83/Fur-Babies-1st.git`
+   
+   6. Press Enter to create the local clone.	  
 
 
+[Contents](#Table-of-Contents)
+
+---
 
 ## Credits
 
