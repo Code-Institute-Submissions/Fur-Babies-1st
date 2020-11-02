@@ -18,7 +18,7 @@ and also be able to see their locale.
 	
 4. [Technologies Used](#Technologies-Used)
     - [Languages](#Languages)
-	- [Frameworks, Libraries and Programs](#Frameworks,-Libraries-and-Programs)
+	- [Frameworks, Libraries and Programs](#Frameworks-Libraries-and-Programs)
 	
 5. [Testing](#Testing)
     - [Testing User Stories](#Testing-User-Stories)
@@ -101,7 +101,7 @@ I have created a palette using [Coolors](https://coolors.co/) and it is displaye
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### Frameworks, Libraries and Programs
+### Frameworks Libraries and Programs
 
 * [Balsamic](https://balsamiq.com/)
    * Balsamic was used to create the wireframes for the project during the design stage.
