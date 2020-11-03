@@ -1,11 +1,11 @@
 html {
- height: 100%; 
+  height: 100%;
 }
 
 body {
   margin-top: 70px;
   padding: 0;
-  
+
   color: #fcfcfc;
   font-family: "Lobster", sans-serif;
   font-weight: 300;
@@ -18,68 +18,64 @@ body {
   -ms-flex-direction: column;
 }
 
-
 /* -------- Background Image -------------*/
 
 .bg-img-home {
-   background:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("../images/dogs-field.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/dogs-field.jpg") no-repeat center center fixed;
 }
 
 .bg-img-services {
-   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("../images/services-image.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/services-image.jpg") no-repeat center center fixed;
 }
 
 .bg-img-gallery {
-    background:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../images/landscape.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/landscape.jpg") no-repeat center center fixed;
 }
 
 .bg-img-contact {
-   background:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("../images/dogs-field.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/dogs-field.jpg") no-repeat center center fixed;
 }
 
 .bg-img {
-    
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 90vh;
   width: 100%;
-  z-index: -1;  
+  z-index: -1;
 }
-
 
 /*------------------- NavBar ---------------------*/
 
 .navbar {
-    background: #636363;
-    margin-bottom: 15px;
-    padding: 0;
-    font-size: 30px;
+  background: #636363;
+  margin-bottom: 15px;
+  padding: 0;
+  font-size: 30px;
 }
 
-.navbar-logo{
-    color: #c2c2c2;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+.navbar-logo {
+  color: #c2c2c2;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navbar-logo:hover {
-    color: #f2f2f2;
-    text-decoration: none;
-    
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
 .navbar nav {
-    align-items: flex-end;
-    margin-right: 10px;
+  align-items: flex-end;
+  margin-right: 10px;
 }
 
 .navbar .navbar-brand {
@@ -88,12 +84,11 @@ body {
 }
 
 .navbar .navbar-toggler {
-    border: none;
+  border: none;
   outline: none;
   color: #fcfcfc;
   padding: 10px;
 }
-
 
 .navbar-dark .navbar-nav .nav-link {
   color: #c2c2c2;
@@ -113,15 +108,15 @@ body {
   align-self: center;
 }
 
-.page-title h1 { 
+.page-title h1 {
   font-size: 70px;
   margin-bottom: 0;
   padding: 0 20px;
 }
 
 .gallery-page-title {
-  margin:0;
-  align-self: center; 
+  margin: 0;
+  align-self: center;
 }
 
 .gallery-page-title h1 {
@@ -131,23 +126,23 @@ body {
 }
 
 .services-page-title {
-    margin: 0;
-    align-self: center;
+  margin: 0;
+  align-self: center;
 }
 
 .services-page-title h1 {
-    font-size: 50px;
-    margin-bottom: 0;
-    padding: 0;
+  font-size: 50px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.contact-page-title{
-    margin: auto;
-    margin-bottom: auto;
-    align-self: center;
+.contact-page-title {
+  margin: auto;
+  margin-bottom: auto;
+  align-self: center;
 }
 .contact-page-title h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 /*---------- About Modal ---------------*/
@@ -201,81 +196,78 @@ body {
 /*--------------- Services -----------------*/
 
 .card-pricing .list-unstyled li {
-     padding: .5rem 0;
-     color: #fffded;
-     font-weight: 300;
-     font-family: "Roboto", sans-serif;
-     
- }
+  padding: 0.5rem 0;
+  color: #fffded;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
 
- .card-pricing:hover {
-      border-radius: 2px;
-      border-color: #fffded;
-      background: rgba(81, 81, 81, 0.57);
- }
+.card-pricing:hover {
+  border-radius: 2px;
+  border-color: #fffded;
+  background: rgba(81, 81, 81, 0.57);
+}
 
- .card {
-     background: rgba(61, 61, 61, 0.36);
- }
+.card {
+  background: rgba(61, 61, 61, 0.36);
+}
 
- .btn {
-     border-radius: 1px;
-     font-weight: 300;
-     background: #fffded;
-     
- }
+.btn {
+  border-radius: 1px;
+  font-weight: 300;
+  background: #fffded;
+}
 
- .btn:hover {
-     color: #fffded;
-     background-color:  #636363;
-     border: 2px solid #fffded;
- }
+.btn:hover {
+  color: #fffded;
+  background-color: #636363;
+  border: 2px solid #fffded;
+}
 
 .card-body-terms {
-    font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #reviews {
-    background: rgba(61, 61, 61, 0.65);
+  background: rgba(61, 61, 61, 0.65);
 }
 
 #first-review {
-    float: left;
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 15px;
+  float: left;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px;
 }
 
 #second-review {
-    float: right;
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 15px;
+  float: right;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px;
 }
 
 #third-review {
-    font-size: 20px;
-    margin-top: 20px;
-    padding: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px;
 }
 /*----------------Bootstrap Gallery Carousel------------*/
-
 
 #gallery img {
   height: 75vw;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
-  margin-bottom: 0px;    
+  object-fit: scale-down;
+  margin-bottom: 0px;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 .carousel-item img {
   height: 60vw;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 #gallery.custom {
@@ -318,8 +310,9 @@ body {
   border: none;
   position: relative;
 }
-#galleryModal.custom .modal-body::before, #galleryModal.custom .modal-body::after {
-  content: '';
+#galleryModal.custom .modal-body::before,
+#galleryModal.custom .modal-body::after {
+  content: "";
   height: 50px;
   width: 50px;
   display: block;
@@ -344,14 +337,16 @@ body {
   margin-top: 60px;
 }
 
-#galleryModal.custom .carousel-control-prev, #galleryModal.custom .carousel-control-next {
+#galleryModal.custom .carousel-control-prev,
+#galleryModal.custom .carousel-control-next {
   font-size: 2em;
   top: auto;
   opacity: 1;
   bottom: -52px;
 }
 
-#galleryModal.custom .carousel-control-next-icon, #galleryModal.custom .carousel-control-prev-icon {
+#galleryModal.custom .carousel-control-next-icon,
+#galleryModal.custom .carousel-control-prev-icon {
   height: 30px;
   width: 30px;
 }
@@ -377,30 +372,30 @@ body {
 /*-------------Contact page --------------------*/
 
 .contact-description p {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .contact-info a {
-    color: #fffded;
+  color: #fffded;
 }
 
 .contact-info span {
-    text-decoration: underline;
-    font-weight: 500;
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .contact-form {
-    background-color: rgba(81, 81, 81, 0.57);
-    border-color: #fffded;
-    color: #fffded;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 30px;
-    text-align: left;
-    text-transform: none;
+  background-color: rgba(81, 81, 81, 0.57);
+  border-color: #fffded;
+  color: #fffded;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+  text-transform: none;
 }
 
 .contact-form textarea {
@@ -409,157 +404,117 @@ body {
 }
 
 .contact-form .btn {
-    font-family: "Lobster", sans-serif;
-    font-size: 22px;
-    letter-spacing: 2px;
-    padding: 15px 30px;
-
+  font-family: "Lobster", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 15px 30px;
 }
 
 ::placeholder {
-    color: #636363
+  color: #636363;
 }
 
 /*----------------Social Links---------------*/
 
-/*.footer-fixed {
-    margin-top: auto;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2.2rem;
-
-}
-
-.footer-fixed i {
-    color: #c2c2c2;
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 30px;
-    letter-spacing: 15px;
-    text-align: center;
-}
-
-.footer-fixed i:hover {
-    color: #fcfcfc;
-}*/
 .landing-footer {
-    margin-top: auto;
-    margin-bottom: 60px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2.2rem;
+  margin-top: auto;
+  margin-bottom: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
 }
 
 .landing-footer i {
-    color: #c2c2c2;
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 30px;
-    letter-spacing: 15px;
-    text-align: center;
+  color: #c2c2c2;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 30px;
+  letter-spacing: 15px;
+  text-align: center;
 }
 
 .landing-footer i:hover {
-    color: #fcfcfc;
+  color: #fcfcfc;
 }
 
 .footer {
-    margin-top: auto;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 2.2rem;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
 }
 
 .footer i {
-    color: #c2c2c2;
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 30px;
-    letter-spacing: 15px;
-    text-align: center;
+  color: #c2c2c2;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 30px;
+  letter-spacing: 15px;
+  text-align: center;
 }
 
 .footer i:hover {
-    color: #fcfcfc;
+  color: #fcfcfc;
 }
-
 
 /*---------------Media Querys---------------*/
 
-@media only screen  and (max-width: 1020px) {
-                    
-                    .page-title {
-                        margin-top: auto;
-                    }
-                    .page-title h1 {
-                        padding: 0;
-                        font-size: 2.5rem;
-                    }
-                    /*.footer-fixed {
-                         position: relative;
-                    }*/
-                    .contact-form {
-                        margin-top: 10px;
-                        margin-bottom: 15px;
-                    }
-                    
-                    #navbarToggler {
-                        text-align: left;
-                        background: #636363;
-                    }
-                    .navbar-expand-lg{
-                        font-size: 20px;
-                    }
-      
-}
+@media only screen and (max-width: 1020px) {
+  .page-title {
+    margin-top: auto;
+  }
+  .page-title h1 {
+    padding: 0;
+    font-size: 2.5rem;
+  }
 
-@media only screen and (min-width: 768px) and (max-width:1024px) {
-    #first-review {
-        float: none;
-    }
-    #second-review {
-        float: none;
-     
+  .contact-form {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #navbarToggler {
+    text-align: left;
+    background: #636363;
+  }
+  .navbar-expand-lg {
+    font-size: 20px;
   }
 }
 
-/*@media only screen and (min-width: 992px) and (max-width:1020px) {
-    .footer-fixed {
-      position: fixed;
-    }
-}*/
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #first-review {
+    float: none;
+  }
+  #second-review {
+    float: none;
+  }
+}
 
 @media only screen and (max-width: 767px) {
-    #generic_price_table .generic_content{
-        margin-bottom:75px;
-    }
-    /*.footer-fixed {
-        position: relative;
-    }*/
+  #generic_price_table .generic_content {
+    margin-bottom: 75px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    #generic_price_table .col-md-3{
-        float:left;
-        width:50%;
-    }
-    
-    #generic_price_table {
-        float:left;
-        width:50%;
-    }
-    
-    #generic_price_table .generic_content{
-        margin-bottom:75px;
-    }
+  #generic_price_table .col-md-3 {
+    float: left;
+    width: 50%;
+  }
+
+  #generic_price_table {
+    float: left;
+    width: 50%;
+  }
+
+  #generic_price_table .generic_content {
+    margin-bottom: 75px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -568,7 +523,7 @@ body {
   }
 }
 @media all and (min-width: 576px) {
-    #gallery img {
+  #gallery img {
     height: 35vw;
   }
   .carousel-item img {
@@ -585,7 +540,7 @@ body {
   #gallery img {
     height: 18vw;
   }
-   #galleryModal.custom .carousel-indicators li {
+  #galleryModal.custom .carousel-indicators li {
     height: 10px;
   }
   #galleryModal.custom .carousel-indicators {
@@ -605,7 +560,8 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  #galleryModal.custom .modal-body::before, #galleryModal.custom .modal-body::after {
+  #galleryModal.custom .modal-body::before,
+  #galleryModal.custom .modal-body::after {
     border-radius: 3px 30px;
     height: 100px;
     width: 100px;
@@ -616,7 +572,8 @@ body {
     bottom: -15px;
     right: 0px;
   }
-  #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
+  #exampleModal.custom .carousel-control-prev,
+  #exampleModal.custom .carousel-control-next {
     top: 0;
     opacity: 0.5;
     bottom: 0;
