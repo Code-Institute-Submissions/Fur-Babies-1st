@@ -23,6 +23,7 @@ and also be able to see their locale.
 5. [Testing](#Testing)
     - [Testing User Stories](#Testing-User-Stories)
 	- [Further Testing](#Further-Testing)
+	- [Current Known Bugs](#Current-Known-Bugs)
 	
 6. [Deployment](#Deployment)
     - [GitHub Pages](#GitHub-Pages)
@@ -213,6 +214,12 @@ I have also used Lighthouse within the devtools to check the performance of the 
 - contact.html
 
 ![contact.html](assets/images/testing-images/performance-contact.png)
+
+
+### Current Known Bugs
+
+- I have found that while using Safari browser the background on the services page and gallery are not static and scroll with contents. This is only apparent on Safari browser and does not happen
+  on any other browser.
 
 
 [Contents](#Table-of-Contents)
